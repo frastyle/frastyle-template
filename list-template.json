@@ -1,4 +1,13 @@
 {
     "template_list": [
+        {
+            "title": "Frastyle Login - Halaman Login",
+            "description": "Template halaman login standar dari Frastyle yang sederhana dan modern.",
+            "author": "@bagasnur",
+            "author_url": "https://github.com/bagasnur",
+            "license": "MIT",
+            "download_url": "https://github.com/frastyle/frastyle-template/releases/download/collections/frastyle-login-template-1.0.0.zip",
+            "preview_img": "https://raw.githubusercontent.com/frastyle/frastyle-template/main/login-page/frastyle-login/pratinjau.png"
+        }
     ]
 }

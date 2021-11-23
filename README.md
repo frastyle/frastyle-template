@@ -8,6 +8,9 @@ Memperkenalkan Frastyle Template : Daftar dari berbagai macam template dan keran
 
 ## 🗃 Daftar Template
 
+####  Halaman Login
+- Frastyle Login | [Unduh](https://github.com/frastyle/frastyle-template/releases/download/collections/frastyle-login-template-1.0.0.zip)
+
 ## 🌱 Berkontribusi
 
 _- Coming Soon_ 🔜

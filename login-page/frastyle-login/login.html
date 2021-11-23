@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Login Template - Frastyle Framework</title>
+
+    <!-- Icon -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <!-- Add CSS | Frastyle CSS Framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/frastyle-css/dist/css/frastyle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/frastyle/simvle-theme@0.1.0-beta.1/dist/css/simvle.min.css" />
+
+    <!-- Custom CSS -->
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+
+    <style>
+        .alert-desc {
+            width: calc(100% - 32px);
+        }
+        .button-login {
+            width: 100%;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class='container mt-3 mb-4'>
+        <div class="row justify-center">
+            <div class="card box-12 box-m-10 box-l-6 shadow p-2 p-m-3">
+                <form action="">
+
+                    <!-- Email -->
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="input" required>
+                    </div>
+
+                    <!-- Passsword -->
+                    <div class="form-input">
+                        <div class="d-flex justify-between">
+                            <label for="password">Kata Sandi</label>
+                            <a href="">Lupa sandi?</a>
+                        </div>
+                        <input type="password" name="password" id="password" class="input" required>
+                    </div>
+
+                    <!-- Remember Me -->
+                    <input type="checkbox" name="remember-me" id="remember-me"><label for="remember-me">Ingat saya</label>
+
+                    <!-- Error Handling -->
+                    <div class="alert-danger flex-row items-center justify-between my-2">
+                        <i class="icon-danger" data-feather="alert-circle"></i>
+                        <div class="alert-desc text-left">
+                            <span>Terlalu banyak aktivitas login. Tunggu dan coba beberapa saat lagi.</span>
+                        </div>
+                    </div>
+
+                    <!-- Button Submit -->
+                    <div class="mt-3 p-0">
+                        <button type="submit" class="button-primary button-login">Masuk</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
