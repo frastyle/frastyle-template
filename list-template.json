@@ -1,6 +1,15 @@
 {
     "template_list": [
         {
+            "title": "Awesome Corp. - Halaman Utama",
+            "description": "Template halaman utama untuk halaman web perusahaan yang modern dan profesional.",
+            "author": "@bagasnur",
+            "author_url": "https://github.com/bagasnur",
+            "license": "MIT",
+            "download_url": "https://github.com/frastyle/simvle-theme/releases/download/collections/awesome-corp-landing-template-v0.1.0-beta.zip",
+            "preview_img": "https://raw.githubusercontent.com/frastyle/frastyle-template/main/landing-page/awesome-corp/pratinjau.png"
+        },
+        {
             "title": "Frastyle Login - Halaman Login",
             "description": "Template halaman login standar dari Frastyle yang sederhana dan modern.",
             "author": "@bagasnur",

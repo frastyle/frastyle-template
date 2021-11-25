@@ -1,0 +1,40 @@
+:root {
+	--primary: #8b67f3;
+}
+.button-primary {
+	--bg-button-hover: #7151d1;
+}
+.navbar {
+	width: 100%;
+	position: -webkit-sticky;
+	position: sticky;
+	padding: 1.5em 0;
+	top: 0;
+	transition: 0.5s;
+	-webkit-animation: 1s;
+	animation: 1s;
+	z-index: 100;
+}
+.linkNavbar	a {
+	--text-link: var(--black);
+	--text-link-hover: #8b67f3;
+	--decoration-link: none;
+    margin-right: 2em;
+    font-weight: 500;
+}
+.linkNavbar	a.active {
+    border-bottom: var(--primary) solid 2px;
+}
+.linkNavbar	a:last-child {
+    margin: 0;
+}
+.linkNavbar button {
+	display: inline;
+}
+.logo {
+    width: 240px;
+}
+.hero {
+	background: url(https://raw.githubusercontent.com/bagasnur/frastyle-resource/main/resource-web/bg.png) no-repeat;
+	background-position: bottom right;
+}
