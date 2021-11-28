@@ -9,7 +9,7 @@ Memperkenalkan Frastyle Template : Daftar dari berbagai macam template dan keran
 ## 🗃 Daftar Template
 
 ####  Halaman Utama
-- Awesome Corp. | [Unduh](https://github.com/frastyle/simvle-theme/releases/download/collections/awesome-corp-landing-template-v0.1.0-beta.zip)
+- Awesome Corp. | [Unduh](https://github.com/frastyle/frastyle-template/releases/download/collections/awesome-corp-landing-template-v0.1.0-beta.zip)
 
 ####  Halaman Login
 - Frastyle Login | [Unduh](https://github.com/frastyle/frastyle-template/releases/download/collections/frastyle-login-template-1.0.0.zip)
